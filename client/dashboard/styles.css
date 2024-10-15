@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  line-height: 60px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.badge {
+  font-size: 1em;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
