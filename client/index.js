@@ -44,10 +44,8 @@ const createWindow = () => {
             preload: path.join(__dirname, 'dashboard/scripts/preload.js'),
             devTools: false // Disable developer tools
         },
-        icon: 'download-removebg-preview.ico'
-    });
 
-    mainWindow.setIcon(path.join(__dirname, 'download-removebg-preview.ico'));
+    });
 
     // and load the index.html of the app.
     mainWindow.loadFile(path.join(__dirname, 'dashboard/fedHomeSysDash.html')).then(r => r);
